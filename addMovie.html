@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>add movie </title>
+  <meta name="description" content="My Add Movie">
+  <link rel="stylesheet"href="css/reset.css">
+  <link rel="stylesheet"href="css/movie.css">
+  <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Lato:300">
+
+  <meta charset "utf-8">
+</head>
+<body>
+
+  <header>
+    <img class="logo fleft" src="./images/projector-logo.png">
+    <nav>
+
+      <ul class="fright">
+        <li> <a href="#">Home</a></li>
+        <li> <a href="#">Add Movie</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="clearfix"></div>
+
+
+  <h2 class="help"> Add a Movie </h2>
+  <form class="add_movie_form" action="/sample-action">
+
+    <ul>
+
+      <li>
+        <label for=" Movie Name" >Movie Name</label>
+        <input id="text" name="movie-name"/>
+      </li>
+      <li>
+        <label for=" Release year">Release year </label>
+        <input id="text" name="release-yr"/>
+      </li>
+      <div class="divide language">
+      <label for="">Language</label>
+      <select name="language">
+      <option  value="Tamil">Tamil</option>
+      <option value="Hindi">Hindi</option>
+      <option value="Telugu">Telugu</option>
+    </select>
+
+    <label for="">rating</label>
+    <select name="rating">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select>
+</li>
+<li>
+  <label for="Thumb-Nail">Thumbnail url</label>
+  <input id="Thumb-Nail"type="url"name="Thumb-Nail"/>
+</li>
+<label for="plot">plot</label>
+<textarea id="plot"name="plot" rows="5"style="overflow:hidden;"></textarea>
+<label for="poster-url">poster-url</label>
+<input type="poster-url"type="url"name="poster-url">
+<label for="cast">cast</label>
+<textarea id="cast"type="textarea"name="cast"rows="5"style="overflow:hidden;"></textarea>
+<input id="numb"name="save"value="save">
+</form>
+</ul>
+<footer>    <img class="logo fright" src="./images/projector-logo.png">
+
+</footer>
+
+
+
+
+</html>
