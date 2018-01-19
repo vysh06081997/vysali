@@ -63,6 +63,13 @@ header ul li a{
 .add_movie_form input{
   height:40px;
 }
+footer img
+{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  padding:10px 10px;
+}
 #numb
 {
   color:white;
@@ -70,4 +77,11 @@ header ul li a{
   background-color: #ffcb59;
   display:block;
   margin:0 auto;
+}
+.divide{
+  display:inline-block;
+  width:50%;
+}
+.language div{
+  padding-left: 0;
 }
