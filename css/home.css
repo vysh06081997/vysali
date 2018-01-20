@@ -1,0 +1,11 @@
+body{
+  background-color: #442D4B;
+  color:white;
+}
+.stars{
+  height:10px;
+}
+.film{
+  height:30px;
+  padding:20px;
+}
